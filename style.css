@@ -45,7 +45,7 @@ ul {
 }
 
 .titel p {
-  font-size: 1.8vw;
+  font-size: 3.5vh;
   margin-top: 30px;
   margin-bottom: 50px;
   font-family: "Lora", serif;
@@ -56,7 +56,7 @@ ul {
 
 .index_menu a {
   color: #6a4395;
-  font-size: 1.8vw;
+  font-size: 3.5vh;
   font-family: "Hind Madurai", sans-serif;
 }
 
@@ -77,7 +77,7 @@ header {
 }
 
 .logo a {
-  font-size: 3vw;
+  font-size: 6vh;
   color: #431c76;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
@@ -97,7 +97,7 @@ header nav ul {
 .menu a {
   display: block;
   color: #6a4395;
-  font-size: 1.8vw;
+  font-size: 3.5vh;
   font-family: "Hind Madurai", sans-serif;
 }
 
@@ -126,3 +126,38 @@ nav {
 }
 
 /* KATEGORI */
+.kategori {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+}
+
+.kat_titel h1 {
+  font-size: 6vh;
+  color: #431c76;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.grid_3-1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5em;
+}
+
+.kat_button {
+  padding: 1.5em;
+  background-color: #d6d0cf;
+  border: 0.09em solid #6a4395;
+  border-radius: 25px;
+  font-size: 3vh;
+  font-family: "Hind Madurai", sans-serif;
+}
+
+.kat_button:hover {
+  background-color: #b297cf;
+  color: #3b1967;
+  transition: 0.3s;
+  border: 0.09em solid #431c76;
+}
