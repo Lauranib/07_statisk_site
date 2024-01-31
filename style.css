@@ -133,7 +133,7 @@ nav {
 }
 
 .kat_titel h1 {
-  font-size: 6vh;
+  font-size: 5.5vh;
   color: #431c76;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
@@ -160,4 +160,26 @@ nav {
   color: #3b1967;
   transition: 0.3s;
   border: 0.09em solid #431c76;
+}
+
+/* PRODUKTLISTE */
+
+.produktliste {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+}
+
+.prod_titel h1 {
+  font-size: 5.5vh;
+  color: #431c76;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.grid_3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 290px));
+  gap: 2.5rem;
 }
