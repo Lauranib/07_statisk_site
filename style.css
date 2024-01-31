@@ -30,9 +30,99 @@ ul {
 
 /* INDEX */
 .index {
-  margin: 8%;
+  margin: 5%;
 }
 
 .titel {
   margin-bottom: 20px;
 }
+
+.titel a {
+  font-size: 8.5vw;
+  color: #431c76;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.titel p {
+  font-size: 1.8vw;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #080942;
+}
+
+.index_menu a {
+  color: #6a4395;
+  font-size: 1.8vw;
+  font-family: "Hind Madurai", sans-serif;
+}
+
+.index_menu a:hover {
+  color: #b297cf;
+}
+
+/* NAVBAR */
+header {
+  position: sticky;
+  top: 0;
+  padding: 3rem 5%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #e1ded5;
+  z-index: 10;
+  align-items: baseline;
+}
+
+.logo a {
+  font-size: 3vw;
+  color: #431c76;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.3rem;
+  gap: 100px;
+  overflow-x: auto;
+}
+
+.menu a {
+  display: block;
+  color: #6a4395;
+  font-size: 1.8vw;
+  font-family: "Hind Madurai", sans-serif;
+}
+
+.menu a:hover {
+  color: #b297cf;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+/* KATEGORI */
