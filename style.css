@@ -236,6 +236,8 @@ nav {
 /* PRODUKT */
 .produkt {
   margin: 5%;
+  font-family: "Hind Madurai", sans-serif;
+  color: #080942;
 }
 .grid_1-1 {
   display: grid;
@@ -262,7 +264,7 @@ nav {
   border-radius: 25px;
   font-size: 1.2rem;
   font-family: "Hind Madurai", sans-serif;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .p_button1:hover,
@@ -271,4 +273,38 @@ nav {
   color: #3b1967;
   transition: 0.3s;
   border: 0.09em solid #431c76;
+}
+
+.shopping h1 {
+  font-size: 1.4rem;
+  color: #431c76;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.shopping h2 {
+  font-size: 2rem;
+  color: #431c76;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.pris {
+  font-size: 1.2rem;
+  margin-bottom: 100px;
+}
+
+.info {
+  margin-top: 60px;
+}
+
+.info h3 {
+  margin-top: 100px;
+}
+
+ol {
+  margin-left: 20px;
+  margin-top: 10px;
 }
