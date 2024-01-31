@@ -182,4 +182,53 @@ nav {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 290px));
   gap: 2.5rem;
+  margin-bottom: 50px;
+}
+
+.prod_list {
+  margin-bottom: 20px;
+  font-family: "Hind Madurai", sans-serif;
+  color: #080942;
+}
+
+.prod_list img {
+  border-radius: 5px;
+  box-shadow: 0 5px 10px 0 rgba(8, 9, 66, 0.055);
+}
+
+.prod_list h2 {
+  margin-top: 10px;
+  margin-bottom: 1rem;
+}
+
+.discounted {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.procent {
+  padding: 0.4em;
+  background-color: crimson;
+}
+
+.udsolgt img {
+  opacity: 0.5;
+}
+
+.prod_list .udsolgt::before {
+  content: "Sold Out";
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  color: #080942;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.prod_link {
+  color: #080942;
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 1.2rem;
 }
