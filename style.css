@@ -232,3 +232,43 @@ nav {
   font-weight: 600;
   font-size: 1.2rem;
 }
+
+/* PRODUKT */
+.produkt {
+  margin: 5%;
+}
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.grid_1-1 img {
+  border-radius: 15px;
+}
+
+.prod_buttons {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  border-bottom: 2px solid rgba(178, 151, 207, 0.5);
+}
+
+.p_button1,
+.p_button2 {
+  padding: 1.5em;
+  background-color: #d6d0cf;
+  border: 0.09em solid #6a4395;
+  border-radius: 25px;
+  font-size: 1.2rem;
+  font-family: "Hind Madurai", sans-serif;
+  margin-bottom: 20px;
+}
+
+.p_button1:hover,
+.p_button2:hover {
+  background-color: #b297cf;
+  color: #3b1967;
+  transition: 0.3s;
+  border: 0.09em solid #431c76;
+}
